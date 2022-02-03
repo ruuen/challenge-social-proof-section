@@ -25,4 +25,114 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+  font-family: "Spartan", sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+body {
+  padding: 5rem 1.5rem;
+  background: no-repeat top left/contain url(./images/bg-pattern-top-mobile.svg), no-repeat bottom right/contain url(./images/bg-pattern-bottom-mobile.svg), #fff;
+}
+
+.social-hero__heading {
+  text-align: center;
+  color: #502050;
+  font-size: 2.2em;
+  line-height: 1;
+  letter-spacing: -1.5px;
+}
+
+.social-hero__copy {
+  text-align: center;
+  color: #937b92;
+  font-weight: 500;
+  font-size: 0.9em;
+  padding: 1.75rem 0 3rem 0;
+}
+
+.social-hero__review-list {
+  list-style: none;
+  padding-inline-start: 0;
+}
+.social-hero__review-list > .social-hero__review-item {
+  margin-bottom: 1rem;
+}
+.social-hero__review-list > .social-hero__review-item:last-child {
+  margin-bottom: 0;
+}
+
+.social-hero__review-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f2f7;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.social-hero__review-item-text {
+  padding: 0.5rem 0 0 0;
+  font-size: 0.8em;
+  font-weight: 700;
+  color: #502050;
+}
+
+.social-hero__testamonial-list {
+  list-style: none;
+  padding-inline-start: 0;
+  padding: 3rem 0 0 0;
+}
+.social-hero__testamonial-list > .social-hero__testamonial-item {
+  margin-bottom: 1rem;
+}
+.social-hero__testamonial-list > .social-hero__testamonial-item:last-child {
+  margin-bottom: 0;
+}
+
+.social-hero__testamonial-item {
+  background-color: #502050;
+  padding: 2.5rem 2rem;
+  border-radius: 10px;
+  color: white;
+}
+
+.social-hero__testamonial-header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.social-hero__testamonial-user-group {
+  padding: 0 0 0 1.5rem;
+}
+
+.social-hero__testamonial-name {
+  color: inherit;
+  font-size: 0.85em;
+}
+
+.social-hero__testamonial-status {
+  color: #ee68a4;
+  font-weight: 400;
+  font-size: 0.85em;
+  padding: 0.35rem 0 0 0;
+}
+
+.social-hero__testamonial-image {
+  border-radius: 50%;
+  max-width: 15%;
+}
+
+.social-hero__testamonial-copy {
+  color: inherit;
+  font-size: 0.8em;
+  font-weight: 500;
+  padding: 1.5rem 0 0 0;
+  line-height: 1.6;
 }
